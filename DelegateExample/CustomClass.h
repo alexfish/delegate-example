@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+
 // declare our class
 @class CustomClass;
 
@@ -19,9 +20,8 @@
 
 @end
 
-@interface CustomClass : NSObject {
-    
-}
+
+@interface CustomClass : NSObject
 
 // define delegate property
 @property (nonatomic, assign) id  delegate;

@@ -8,7 +8,9 @@
 
 #import "CustomClass.h"
 
+
 @implementation CustomClass
+
 
 -(void)helloDelegate
 {
@@ -16,8 +18,11 @@
     [_delegate sayHello:self];
 }
 
--(void)dealloc {
+-(void)dealloc
+{
+    // set the delegate to nil
     _delegate = nil;
 }
+
 
 @end

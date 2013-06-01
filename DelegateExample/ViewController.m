@@ -31,7 +31,8 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void)sayHello:(CustomClass *)customClass {
+-(void)sayHello:(CustomClass *)customClass
+{
     NSLog(@"Hello!");
 }
 
