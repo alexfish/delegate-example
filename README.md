@@ -1,4 +1,4 @@
 delegate-example
 ================
 
-Example code for http://alexefish.com/post/15966868557/understanding-and-creating-delegates-in-objective-c
+Example code for http://www.alexefish.com/post/522641eb31fa2a0015000002
